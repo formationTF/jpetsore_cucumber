@@ -31,7 +31,7 @@ public class AnnotationSteps {
 		driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		//navigation
-		driver.get("http://demo.kieker-monitoring.net/jpetstore/");
+		driver.get("https://petstore.octoperf.com/");
 		driver.findElement(By.xpath("//a[.='Enter the Store']")).click();
 	}
 
